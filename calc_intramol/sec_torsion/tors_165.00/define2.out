@@ -1,0 +1,184 @@
+
+ define (uc2n412.localdomain) : TURBOMOLE rev. V7.4.1 (b987a8a8) compiled 15 Oct 2019 at 12:03:25
+ Copyright (C) 2019 TURBOMOLE GmbH, Karlsruhe
+
+
+    2021-07-06 15:23:30.427 
+
+                    HOST NAME = uc2n412.localdomain
+             OPERATING SYSTEM = unix
+   STANDARD BASIS SET LIBRARY = /opt/bwhpc/common/chem/turbomole/7.4.1_tmolex452/TURBOMOLE_COMPUTE/basen/
+  ALTERNATE BASIS SET LIBRARY = /opt/bwhpc/common/chem/turbomole/7.4.1_tmolex452/TURBOMOLE_COMPUTE/basold/
+ LIBRARY FOR RI-J  BASIS SETS = /opt/bwhpc/common/chem/turbomole/7.4.1_tmolex452/TURBOMOLE_COMPUTE/jbasen/
+ LIBRARY FOR RI-JK BASIS SETS = /opt/bwhpc/common/chem/turbomole/7.4.1_tmolex452/TURBOMOLE_COMPUTE/jkbasen/
+ LIBRARY FOR RIMP2/RICC2 SETS = /opt/bwhpc/common/chem/turbomole/7.4.1_tmolex452/TURBOMOLE_COMPUTE/cbasen/
+ LIBRARY FOR RIR12 BASIS SETS = /opt/bwhpc/common/chem/turbomole/7.4.1_tmolex452/TURBOMOLE_COMPUTE/cabasen/
+ LIBRARY FOR OEP   BASIS SETS = /opt/bwhpc/common/chem/turbomole/7.4.1_tmolex452/TURBOMOLE_COMPUTE/xbasen/
+            STRUCTURE LIBRARY = /opt/bwhpc/common/chem/turbomole/7.4.1_tmolex452/TURBOMOLE_COMPUTE/structures/
+ 
+
+ ***********************************************************
+ *                                                         *
+ *                       D E F I N E                       *
+ *                                                         *
+ *         TURBOMOLE'S  INTERACTIVE  INPUT  PROGRAM        *
+ *                                                         *
+ *  Quantum Chemistry Group       University of Karlsruhe  *
+ *                                                         *
+ ***********************************************************
+
+
+ FILE control ALREADY EXISTS 
+ I WILL PLUG IN THE NEW DATA.
+ ***********************************************************
+ *                                                         *
+ *                  BATCH MODE ACTIVATED !                 *
+ *                                                         *
+ *  using mainly default settings and avoid user questions *
+ *  delete $runbatch/$tmole in control file to deactivate  *
+ *                                                         *
+ ***********************************************************
+
+ DATA WILL BE TAKEN FROM control BY DEFAULT
+ 
+ INPUT TITLE 
+
+ SYMMETRY c1   AND CARTESIAN COORDINATES FOR  10 ATOMS 
+ HAVE BEEN READ FROM THE DEFAULT INPUT FILE control . 
+ DEFINITIONS OF    1 INTERNAL COORDINATES HAVE BEEN READ. 
+ SPECIFICATION OF BOND TOPOLOGY HAS BEEN READ. 
+ DO YOU WANT TO CHANGE THE GEOMETRY DATA ?  DEFAULT=n  GOBACK=&
+
+
+ SPECIFICATION OF MOLECULAR GEOMETRY ( #ATOMS=10    SYMMETRY=c1  )
+ YOU MAY USE ONE OF THE FOLLOWING COMMANDS : 
+ sy <group> <eps> : DEFINE MOLECULAR SYMMETRY (default for eps=3d-1)
+ desy <eps>       : DETERMINE MOLECULAR SYMMETRY AND ADJUST 
+                     COORDINATES (default for eps=1d-6)
+ susy             : ADJUST COORDINATES FOR SUBGROUPS
+ ai               : ADD ATOMIC COORDINATES INTERACTIVELY
+ a <file>         : ADD ATOMIC COORDINATES FROM FILE <file>
+ aa <file>        : ADD ATOMIC COORDINATES IN ANGSTROEM UNITS FROM FILE <file>
+ sub              : SUBSTITUTE AN ATOM BY A GROUP OF ATOMS
+ i                : INTERNAL COORDINATE MENU 
+ ired             : REDUNDANT INTERNAL COORDINATES
+ red_info         : DISPLAY REDUNDANT INTERNAL COORDINATES
+ ff               : UFF-FORCEFIELD CALCULATION
+ m                : MANIPULATE GEOMETRY
+ frag             : Define Fragments for BSSE calculation
+ w <file>         : WRITE MOLECULAR COORDINATES TO FILE <file> 
+ r <file>         : RELOAD ATOMIC AND INTERNAL COORDINATES FROM FILE <file>
+ name             : CHANGE ATOMIC IDENTIFIERS 
+ del              : DELETE ATOMS 
+ dis              : DISPLAY MOLECULAR GEOMETRY 
+ banal            : CARRY OUT BOND ANALYSIS 
+ *                : TERMINATE MOLECULAR GEOMETRY SPECIFICATION 
+                     AND WRITE GEOMETRY DATA TO CONTROL FILE 
+
+ IF YOU APPEND A QUESTION MARK TO ANY COMMAND AN EXPLANATION
+ OF THAT COMMAND MAY BE GIVEN 
+
+     GEOIRED: NBDIM      24  NDEGR:      24
+      Lowest Eigenvalue of BmBt is:          0.0648035791
+     GEOSPY: ATTENTION! 
+     natural internals not linearly independent? 
+       Decoupling with "globtry"=    1.03295241664507     
+     GEOSPY: ATTENTION! 
+     natural internals not linearly independent? 
+       Decoupling with "globtry"=   0.999999999900000     
+      Lowest Eigenvalue of projected BBt           0.0648035791 No:    24
+      Quotient of Eigenvalues           1.0000000000
+     OCCUPATION OF BLOCKS:   24    0    0    0    0
+
+    geometry change & new internal coordinates :
+delocalized internal coordinate             0.0000000000    3.0317552746
+delocalized internal coordinate             0.0000000000    1.8180421327
+delocalized internal coordinate             0.0000000000    1.8995480485
+delocalized internal coordinate             0.0000000000    2.0709318114
+delocalized internal coordinate             0.0000000000    2.0720298511
+delocalized internal coordinate             0.0000000000    0.0336792820
+delocalized internal coordinate             0.0000000000    0.0195825229
+delocalized internal coordinate             0.0000000000    0.0788055583
+delocalized internal coordinate             0.0000000000    0.0219398117
+delocalized internal coordinate             0.0000000000    2.0709318324
+delocalized internal coordinate             0.0000000000    2.0720298741
+delocalized internal coordinate             0.0000000000    0.0336795308
+delocalized internal coordinate             0.0000000000    0.0195826203
+delocalized internal coordinate             0.0000000000    0.0788053693
+delocalized internal coordinate             0.0000000000    0.0219400355
+delocalized internal coordinate             0.0000000000    3.0317592236
+delocalized internal coordinate             0.0000000000    1.8180421416
+delocalized internal coordinate             0.0000000000    1.8995480055
+delocalized internal coordinate             0.0000000000    2.6930395408
+delocalized internal coordinate             0.0000000000    1.8726840950
+delocalized internal coordinate             0.0000000000    2.6930394388
+delocalized internal coordinate             0.0000000000    1.8726842532
+delocalized internal coordinate             0.0000000000    2.8664376735
+delocalized internal coordinate             0.0000000000    2.8797932658
+
+  **** convergence reached within     1 iterations ****
+
+  Updated coordinates will be transformed into principal axis system
+
+            *******************************************
+   ATOM      NEW CARTESIAN COORDINATES
+
+    1 h       0.79560949693804      0.01562478651001     -4.75314928165951
+    2 o      -0.36966649758596     -0.16459983950411     -3.36933999670169
+    3 c       0.96846487895099      0.17101580719960     -1.05650007032210
+    4 h       2.03715685870846      1.94487405528487     -1.04739316807979
+    5 h       2.29499535115892     -1.38568202996369     -0.72436086183036
+    6 c      -0.96846453778245      0.17101631413571      1.05650001732619
+    7 h      -2.03715595320014      1.94487492413842      1.04739261323705
+    8 h      -2.29499542859292     -1.38568112396051      0.72436046648280
+    9 o       0.36966629670603     -0.16459947050503      3.36934011858258
+   10 h      -0.79561120189169      0.01561916505136      4.75314892875614
+
+ SPECIFICATION OF MOLECULAR GEOMETRY ( #ATOMS=10    SYMMETRY=c1  )
+ YOU MAY USE ONE OF THE FOLLOWING COMMANDS : 
+ sy <group> <eps> : DEFINE MOLECULAR SYMMETRY (default for eps=3d-1)
+ desy <eps>       : DETERMINE MOLECULAR SYMMETRY AND ADJUST 
+                     COORDINATES (default for eps=1d-6)
+ susy             : ADJUST COORDINATES FOR SUBGROUPS
+ ai               : ADD ATOMIC COORDINATES INTERACTIVELY
+ a <file>         : ADD ATOMIC COORDINATES FROM FILE <file>
+ aa <file>        : ADD ATOMIC COORDINATES IN ANGSTROEM UNITS FROM FILE <file>
+ sub              : SUBSTITUTE AN ATOM BY A GROUP OF ATOMS
+ i                : INTERNAL COORDINATE MENU 
+ ired             : REDUNDANT INTERNAL COORDINATES
+ red_info         : DISPLAY REDUNDANT INTERNAL COORDINATES
+ ff               : UFF-FORCEFIELD CALCULATION
+ m                : MANIPULATE GEOMETRY
+ frag             : Define Fragments for BSSE calculation
+ w <file>         : WRITE MOLECULAR COORDINATES TO FILE <file> 
+ r <file>         : RELOAD ATOMIC AND INTERNAL COORDINATES FROM FILE <file>
+ name             : CHANGE ATOMIC IDENTIFIERS 
+ del              : DELETE ATOMS 
+ dis              : DISPLAY MOLECULAR GEOMETRY 
+ banal            : CARRY OUT BOND ANALYSIS 
+ *                : TERMINATE MOLECULAR GEOMETRY SPECIFICATION 
+                     AND WRITE GEOMETRY DATA TO CONTROL FILE 
+
+ IF YOU APPEND A QUESTION MARK TO ANY COMMAND AN EXPLANATION
+ OF THAT COMMAND MAY BE GIVEN 
+
+
+ GEOMETRY DATA WILL BE WRITTEN TO FILE coord
+
+
+ ATOMIC ATTRIBUTE DATA (BASES,CHARGES,MASSES,ECPS) HAVE BEEN
+ TAKEN FROM THE DEFAULT INPUT FILE control.
+ DO YOU WANT TO CHANGE THESE DATA ? DEFAULT=n  GOBACK=&
+
+
+========================
+ internal module stack: 
+------------------------
+    define
+    abcspy
+========================
+
+  program quits due to user input 
+ define ended abnormally
+ define ended abnormally
+program stopped.

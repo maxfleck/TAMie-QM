@@ -1,0 +1,15 @@
+VdW-site        mass(amu)     epsilon/k(K)  sigma(Angstrom)  m(repulsive_Mie-exponent)  cut-off(Angstrom) 
+  CH3_alkane     15.035        136.318         3.603            14                        14.0  .true.  
+  CH2_alkane     14.027        52.913          4.04             14                        14.0  .true.  
+  OH_alcohol     17.007        84.23           3.035            12                        14.0  .true.
+  CH2_alcohol    14.027        84.23           3.842            14                        14.0  .true.
+coulomb-site    mass(amu)     charge(e)
+
+  cH_alcohol     0.0           0.404           
+  cO_alcohol     0.0           -0.65           
+  cC_alcohol     0.0           0.246          
+
+References
+0) Results from force field optimizer 
+1) TaMie papers ITT 
+2) Start from Siepmann (TraPPe) (99%) and OPLS (1%) 

@@ -1,0 +1,7 @@
+$convcrit
+  energy              6
+  cartesian gradient  3
+  basis set gradient  3
+  cycles              10
+$convergence not reached
+$end

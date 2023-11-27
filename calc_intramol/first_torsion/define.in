@@ -1,0 +1,31 @@
+
+
+a coord
+idef
+f tors 2 3 6 9
+
+
+
+ired
+*
+no
+b all def2-TZVP
+*
+eht
+
+0
+
+dft
+on
+func
+b3-lyp
+grid m5
+*
+scf
+conv
+8
+iter
+300
+
+*
+ 

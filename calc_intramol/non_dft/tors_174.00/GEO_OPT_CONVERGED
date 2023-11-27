@@ -1,0 +1,22 @@
+CONVERGENCY CRITERIA FULFILLED IN CYCLE 2
+
+
+Job ended at   Sa 7. Aug 07:12:59 CEST 2021
+  on machine     uc2n366.localdomain
+  by user        st_ac135066
+  in directory   /home/st/st_us-042110/st_ac135066/ws_2021/QM/1,2-ethyldiole/non_dft/tors_174.00
+  
+job.start file had been created with details about the job type: 
+
+Sa 7. Aug 07:11:06 CEST 2021
+jobex WAS CALLED AS: jobex -level cc2
+AN OPTIMIZATION WITH MAX. 100 CYCLES WILL BE PERFORMED
+CONVERGENCY CRITERION FOR TOTAL CC2-ENERGY IS 10**(-6)
+CONVERGENCY CRITERION FOR MAXIMUM NORM OF CC2-ENERGY GRADIENT IS 10**(-3)
+CONVERGENCY CRITERION FOR MAXIMUM NORM OF BASIS SET GRADIENT IS 10**(-3)
+PROCEDURE WILL START WITH A dscf like STEP
+LOAD MODULES WILL BE TAKEN FROM DIRECTORY /opt/bwhpc/common/chem/turbomole/7.4.1_tmolex452/TURBOMOLE_COMPUTE/bin/em64t-unknown-linux-gnu
+DSCF  = /opt/bwhpc/common/chem/turbomole/7.4.1_tmolex452/TURBOMOLE_COMPUTE/bin/em64t-unknown-linux-gnu/dscf
+GRAD  = /opt/bwhpc/common/chem/turbomole/7.4.1_tmolex452/TURBOMOLE_COMPUTE/bin/em64t-unknown-linux-gnu/ricc2
+STATPT = /opt/bwhpc/common/chem/turbomole/7.4.1_tmolex452/TURBOMOLE_COMPUTE/bin/em64t-unknown-linux-gnu/statpt
+
